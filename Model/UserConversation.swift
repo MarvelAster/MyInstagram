@@ -7,3 +7,12 @@
 //
 
 import Foundation
+struct Conversation {
+    var conversationId : String
+    var conversationDetail : [ConversationDetail]
+}
+struct ConversationDetail {
+    var timestamp : String
+    var message : String
+    var sendId : String
+}

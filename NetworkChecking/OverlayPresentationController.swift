@@ -24,7 +24,7 @@ class OverlayPresentationController: UIPresentationController {
     }
     
     @objc func dimmingViewTapped(_ gestureRecognizer: UITapGestureRecognizer) {
-        presentingViewController.dismiss(animated: true, completion: nil)
+        //presentingViewController.dismiss(animated: true, completion: nil)
     }
     
     override func presentationTransitionWillBegin() {

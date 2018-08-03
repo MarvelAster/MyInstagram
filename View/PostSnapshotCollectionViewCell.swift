@@ -10,4 +10,5 @@ import UIKit
 
 class PostSnapshotCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imgView: UIImageView!
 }

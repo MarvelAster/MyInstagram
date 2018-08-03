@@ -7,3 +7,6 @@
 //
 
 import Foundation
+class Constants {
+    static let notificationName  = Notification.Name("Mynotification")
+}

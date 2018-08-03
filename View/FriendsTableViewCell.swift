@@ -1,4 +1,4 @@
-//
+    //
 //  FollowingTableViewCell.swift
 //  MyInstagramProjectWithFirebase
 //
@@ -7,13 +7,18 @@
 //
 
 import UIKit
-
-class FollowingTableViewCell: UITableViewCell {
-
+protocol FriendsCellDelegate {
+    func removeFriendWithUser(cell : FriendsTableViewCell)
+}
+class FriendsTableViewCell: UITableViewCell {
+    
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var nameLbl: UILabel!
     
+    var delegate : FriendsCellDelegate!
+    
     @IBAction func minusClick(_ sender: Any) {
+        delegate.removeFriendWithUser(cell: self)
     }
     override func awakeFromNib() {
         super.awakeFromNib()

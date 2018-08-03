@@ -7,9 +7,23 @@
 //
 
 import UIKit
-
+protocol AllUserCellDelegate {
+    func addFriendWithUser(cell : AllUsersTableViewCell)
+}
 class AllUsersTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var toplbl: UILabel!
+    @IBOutlet weak var bottomlbl: UILabel!
+    @IBOutlet weak var plusButton: UIButton!
+    
+    var delegate : AllUserCellDelegate!
+    
+    @IBAction func plusBtnClick(_ sender: Any) {
+        delegate.addFriendWithUser(cell: self)
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

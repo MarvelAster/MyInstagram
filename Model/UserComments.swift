@@ -7,3 +7,12 @@
 //
 
 import Foundation
+struct Comment {
+    var commentId : String
+    var commentDetail : CommentDetail
+}
+struct CommentDetail {
+    var userId : String
+    var postId : String
+    var commentText : String
+}

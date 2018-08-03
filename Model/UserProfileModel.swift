@@ -7,3 +7,20 @@
 //
 
 import Foundation
+struct UserInfo {
+    var userId : String
+    var user : User
+}
+struct User {
+    var Name : String
+    var EmailId : String
+    var PhoneNumber : String
+    var UserImage : String
+    var posts: [String : String] = [:]
+    var following: [String : String] = [:]
+    var followers: [String : String] = [:]
+    var friends : [String : String] = [:]
+    
+}
+
+

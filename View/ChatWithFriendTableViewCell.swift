@@ -9,7 +9,10 @@
 import UIKit
 
 class ChatWithFriendTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var chatText: UILabel!
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

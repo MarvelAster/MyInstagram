@@ -9,7 +9,24 @@
 import UIKit
 
 class ResetPasswordViewController: UIViewController {
-
+    @IBOutlet weak var email: UITextField!
+    
+    @IBAction func sentEmailClick(_ sender: Any) {
+        FireBaseDataHandler.shareInstance.passwordResetWithEmail(email: self.email.text!, completion: {
+            (error) in
+            if error == nil {
+                let alter = UIAlertController(title: "Alter", message: "An email has been set to your email box, please check it ASAP", preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alter.addAction(action)
+                self.present(alter, animated: true, completion: nil)
+            } else {
+                let alter = UIAlertController(title: "Alter", message: error?.localizedDescription, preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alter.addAction(action)
+                self.present(alter, animated: true, completion: nil)
+            }
+        })
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

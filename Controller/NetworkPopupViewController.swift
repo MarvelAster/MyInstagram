@@ -10,6 +10,9 @@ import UIKit
 
 class NetworkPopupViewController: UIViewController {
 
+    @IBAction func runOfflineClick(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

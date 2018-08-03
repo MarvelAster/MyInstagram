@@ -10,6 +10,8 @@ import UIKit
 
 class CommentTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var lbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
