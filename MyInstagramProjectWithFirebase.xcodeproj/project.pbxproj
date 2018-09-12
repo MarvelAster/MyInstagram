@@ -44,6 +44,7 @@
 		5B4C0DA820BDD1E400D248DD /* UserPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C0DA720BDD1E400D248DD /* UserPostModel.swift */; };
 		5B70B11420C3434B00E9861A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70B11320C3434B00E9861A /* FriendsViewController.swift */; };
 		5B70B11620C3436B00E9861A /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70B11520C3436B00E9861A /* FriendsTableViewCell.swift */; };
+		5B7C7F4F2148CA3600B96919 /* Feature1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C7F4E2148CA3600B96919 /* Feature1.swift */; };
 		5BBFF94920BF88EE00297819 /* WhoLikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFF94820BF88EE00297819 /* WhoLikesViewController.swift */; };
 		5BBFF94B20BF8AFF00297819 /* WhoLikesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFF94A20BF8AFF00297819 /* WhoLikesTableViewCell.swift */; };
 		5BEC742F20C3CCCF0056DCF0 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC742E20C3CCCF0056DCF0 /* NetworkCheck.swift */; };
@@ -91,6 +92,7 @@
 		5B4C0DA720BDD1E400D248DD /* UserPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostModel.swift; sourceTree = "<group>"; };
 		5B70B11320C3434B00E9861A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		5B70B11520C3436B00E9861A /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		5B7C7F4E2148CA3600B96919 /* Feature1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1.swift; sourceTree = "<group>"; };
 		5BA783E020C276B4000D4DC2 /* MyInstagramProjectWithFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyInstagramProjectWithFirebase.entitlements; sourceTree = "<group>"; };
 		5BBFF94820BF88EE00297819 /* WhoLikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoLikesViewController.swift; sourceTree = "<group>"; };
 		5BBFF94A20BF8AFF00297819 /* WhoLikesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoLikesTableViewCell.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				5B061E2120C0F1BA0089766B /* DateHelper.swift */,
 				5B20260420C5B3B2000877CB /* UserConversation.swift */,
 				5B20260C20C6370C000877CB /* Constant.swift */,
+				5B7C7F4E2148CA3600B96919 /* Feature1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				5B06EA3C20B91B6500DA1F59 /* UserSettingViewController.swift in Sources */,
 				5BBFF94920BF88EE00297819 /* WhoLikesViewController.swift in Sources */,
 				5B4C0DA820BDD1E400D248DD /* UserPostModel.swift in Sources */,
+				5B7C7F4F2148CA3600B96919 /* Feature1.swift in Sources */,
 				5B06EA1C20B8C75D00DA1F59 /* AppDelegate.swift in Sources */,
 				5B06EA3E20B91B8A00DA1F59 /* UserSettingProfileViewController.swift in Sources */,
 				5B06EA4A20BB963500DA1F59 /* UserSettingTableViewCell.swift in Sources */,
