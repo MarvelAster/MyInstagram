@@ -50,6 +50,7 @@
 		5BEC743520C3CE860056DCF0 /* OverlayTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC743320C3CE860056DCF0 /* OverlayTransitionDelegate.swift */; };
 		5BEC743620C3CE860056DCF0 /* OverlayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC743420C3CE860056DCF0 /* OverlayPresentationController.swift */; };
 		5BEC743820C3CEED0056DCF0 /* NetworkPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC743720C3CEED0056DCF0 /* NetworkPopupViewController.swift */; };
+		A22577C52148CA0800FB75C3 /* Feature1Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22577C42148CA0800FB75C3 /* Feature1Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,7 @@
 		5BEC743420C3CE860056DCF0 /* OverlayPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPresentationController.swift; sourceTree = "<group>"; };
 		5BEC743720C3CEED0056DCF0 /* NetworkPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPopupViewController.swift; sourceTree = "<group>"; };
 		5E0E0FD7621C537800FF660E /* Pods_MyInstagramProjectWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInstagramProjectWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22577C42148CA0800FB75C3 /* Feature1Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1Test.swift; sourceTree = "<group>"; };
 		CFD85A1CFBE8A6CD190B1B83 /* Pods-MyInstagramProjectWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInstagramProjectWithFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInstagramProjectWithFirebase/Pods-MyInstagramProjectWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		E1DDF1189DD5B40F64D863E6 /* Pods-MyInstagramProjectWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInstagramProjectWithFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInstagramProjectWithFirebase/Pods-MyInstagramProjectWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				5B06EA4520BA7D4D00DA1F59 /* FireBaseDataHandler.swift */,
+				A22577C42148CA0800FB75C3 /* Feature1Test.swift */,
 				5B06EA3320B8EECB00DA1F59 /* UserProfileModel.swift */,
 				5B4C0DA720BDD1E400D248DD /* UserPostModel.swift */,
 				5B061E1F20C0A1D90089766B /* UserComments.swift */,
@@ -460,6 +463,7 @@
 				5B70B11420C3434B00E9861A /* FriendsViewController.swift in Sources */,
 				5BEC742F20C3CCCF0056DCF0 /* NetworkCheck.swift in Sources */,
 				5B06EA4020B91BA000DA1F59 /* UserSettingDetailViewController.swift in Sources */,
+				A22577C52148CA0800FB75C3 /* Feature1Test.swift in Sources */,
 				5B70B11620C3436B00E9861A /* FriendsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
